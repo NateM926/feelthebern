@@ -1,24 +1,44 @@
-<!doctype html>
+<link rel="stylesheet" href="./material.min.css">
+<script src="./material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<!DOCTYPE html>
 <html>
-
   <head>
-    <title>Buoy Login</title>
-    <style>
-      div#login{width:75%;
-      background-color:"red";
-      }
-    </style>
+    <title>Package Transfer</title>
   </head>
-
   <body>
+    <div>
+      <h1>
+        Restaurant Manager
+      </h1>
 
-    <div id="login">
-      <form>
-	Username:<input type="text" name="user">
-	Password:<input type="password" name="pass">
-	<input type="button" name="submit" label="Submit">
-      </form>
+
+	<!-- Floating Label Textfield Username -->
+	<form action="#">
+	  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	    <input class="mdl-textfield__input" type="text" id="sample3">
+	    <label class="mdl-textfield__label" for="sample3">Username</label>
+	  </div>
+	</form>
+
+	<!-- Floating Label Textfield Username -->
+	<form action="#">
+	  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+	    <input class="mdl-textfield__input" type="text" id="sample3">
+	    <label class="mdl-textfield__label" for="sample3">Password</label>
+	  </div>
+	</form>
+
+
+	<!-- Accent-colored raised button with ripple -->
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+	  Login
+	</button>
+
+
+
+
     </div>
   </body>
-  
 </html>

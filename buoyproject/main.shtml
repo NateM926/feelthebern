@@ -1,13 +1,30 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
+
 <!doctype html>
 <html>
 <head>
-<title></title>
+<title>BouyBoyz</title>
 
-<button type="button">Click Me!</button>
-<button type="button">Click Me!</button>
-<button type="button">Click Me!</button>
-<button type="button">Click Me!</button>
-<button type="button">Click Me!</button>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  PoS
+</button>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  Stats
+</button>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  Purchase Entry 
+</button>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  Menu Entry
+</button>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  Predictions
+</button>
+<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+  Button
+</button>
 
 </head>
 
