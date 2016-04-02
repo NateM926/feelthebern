@@ -1,0 +1,58 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="{% static "css/stylesheet_POS.css" %}"/></link>
+    <title>Point of Sale</title>
+  </head>
+  <body>
+    <div id="header" background-color=blue>
+      <h1>
+        Point of Sale
+      </h1>
+    </div>
+
+    <!--selectors: -->
+    <div id=contentBox>
+      <form method="post" action="" id="transfer">
+        <section class="container" id="mealSelectorContainer">
+          <p id="mealSelectorText">
+            Meal Selector:
+          </p>
+            {% csrf_token %}
+            {{ PoSForm.mealSelector }}
+        </section>
+        <section class="container" id="toChoiceContainer">
+          <p id="toText">
+            To:
+          </p>
+            {% csrf_token %}
+            {{ transfer_form.toChoiceSelector }}
+        </section>
+        <section class="container", id="selectorContainer">
+          <div>
+            {% csrf_token %}
+            {{ transfer_form.leftTextBox }}
+          </div>
+          <div>
+            <input type="button" id="btnLeft" value="<<" />
+            <input type="button" id="btnRight" value=">>" />
+          </div>
+          <div>
+            {% csrf_token %}
+            {{ transfer_form.rightTextBox }}
+          </div>
+        </section>
+
+        <section class="container", id="reasonContainer">
+          <p id = "reasonText">
+            Reason:
+            {% csrf_token %}
+            {{ transfer_form.reason }}
+          </p>
+          <input type="submit" value="transfer", id ="saveButton">
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
