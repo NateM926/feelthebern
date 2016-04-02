@@ -16,12 +16,12 @@
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="#fixed-tab-1" class="mdl-layout__tab is-active">PoS</a>
-      <a href="#fixed-tab-2" class="mdl-layout__tab">Perchase Entry</a>
-      <a href="#fixed-tab-3" class="mdl-layout__tab">Menu Entry</a>
-	  <a href="#fixed-tab-4" class="mdl-layout__tab">Stats</a>
-	  <a href="#fixed-tab-5" class="mdl-layout__tab">Predictions</a>
-	  <a href="#fixed-tab-6" class="mdl-layout__tab">Maine</a>
+      <a href="./pos/pos.html"class="mdl-layout__tab is-active">PoS</a></a>
+      <a href="./dep/dep.shtml"class="mdl-layout__tab">Perchase Entry</a></a>
+      <a href="./dem/dem.shtml" class="mdl-layout__tab">Menu Entry</a>
+	  <a href="./stats/stats.shtml" class="mdl-layout__tab">Stats</a>
+	  <a href="./main.shtml" class="mdl-layout__tab">Predictions</a>
+	  <a href="./main.shtml" class="mdl-layout__tab">Maine</a>
     </div>
   </header>
   <img src="buoyIcon.png" alt="Buoy Icon" width="150" height="150">
@@ -30,13 +30,15 @@
   </div>
   <main class="mdl-layout__content">
     <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-      <div class="page-content"><!-- Your content goes here --></div>
+      <div class="page-content">
+	  
+	  </div>
     </section>
     <section class="mdl-layout__tab-panel" id="fixed-tab-2">
       <div class="page-content"><!-- Your content goes here --></div>
     </section>
     <section class="mdl-layout__tab-panel" id="fixed-tab-3">
-      <div class="page-content"><!-- Your content goes here --></div>
+      <div class="page-content"s><!-- Your content goes here --></div>
     </section>
 	<section class="mdl-layout__tab-panel" id="fixed-tab-4">
       <div class="page-content"><!-- Your content goes here --></div>
