@@ -10,13 +10,14 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>DEP</title>
+    <title>Data Entry</title>
   </head>
   <body>
     <div>
       <h1>
-        DEP
+        Data Entry
       </h1>
+    </div>
 
 
 	<!-- Floating Label Item Name -->
@@ -52,6 +53,5 @@
 
 
 
-    </div>
   </body>
 </html>
