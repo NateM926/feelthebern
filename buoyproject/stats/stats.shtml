@@ -26,12 +26,12 @@
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="../pos/pos.html"class="mdl-layout__tab is">PoS</a></a>
+      <a href="../pos/pos.shtml"class="mdl-layout__tab is">PoS</a></a>
       <a href="../dep/dep.shtml"class="mdl-layout__tab">Perchase Entry</a></a>
       <a href="../dem/dem.shtml" class="mdl-layout__tab">Menu Entry</a>
 	  <a href="../stats/stats.shtml" class="mdl-layout__tab">Stats</a>
 	  <a href="../main.shtml" class="mdl-layout__tab">Predictions</a>
-	  <a href="../main.shtml" class="mdl-layout__tab">Maine</a>
+
     </div>
   </header>
   <div class="mdl-layout__drawer">
