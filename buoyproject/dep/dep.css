@@ -1,0 +1,18 @@
+body {
+  margin-left:15px;
+  margin-top:-5px;
+  background-color:#e4e5ed;
+}
+h1 {
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  color:#ffffff;
+  margin-bottom: 15px;
+  background-color:#3F51B5;
+  padding:10px;
+  width: 750px;
+  box-shadow: 5px 5px 20px #888888;
+}
+
+#itemNameText,#numPurchase,#dateTime{
+
+}
