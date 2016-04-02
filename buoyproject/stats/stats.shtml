@@ -2,17 +2,23 @@
 <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-indigo.min.css" />
 <script defer src="https://code.getmdl.io/1.1.3/material.min.js"></script>
 
+
+<!-- Color change: -->
+<link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.blue_grey-indigo.min.css" />
+<link type="text/css" rel="stylesheet" href="./stats.css"/>
+
+
 <!doctype html>
 <html>
 <head>
-<title>Buoy</title>
+<title>Statistics</title>
 <!-- Simple header with fixed tabs. -->
-<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
+<div id = "header" class="mdl-layout mdl-js-layout mdl-layout--fixed-header
             mdl-layout--fixed-tabs">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Buoy</span>
+      <span class="mdl-layout-title" id = "buoy" >Buoy Restaurant Solutions</span>
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
@@ -61,6 +67,13 @@
       </h1>
     </div>
 
+    <div id = "container">
+    Graph 1
+    
+    Table 2
+
+    Graph 3
+    </div>
 
 
 
