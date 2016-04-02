@@ -21,6 +21,7 @@
       <a href="#fixed-tab-3" class="mdl-layout__tab">Menu Entry</a>
 	  <a href="#fixed-tab-4" class="mdl-layout__tab">Stats</a>
 	  <a href="#fixed-tab-5" class="mdl-layout__tab">Predictions</a>
+	  <a href="#fixed-tab-6" class="mdl-layout__tab">Maine</a>
     </div>
   </header>
   <img src="buoyIcon.png" alt="Buoy Icon" width="150" height="150">
@@ -42,6 +43,9 @@
     </section>
 	<section class="mdl-layout__tab-panel" id="fixed-tab-5">
       <div class="page-content"><!-- Your content goes here --></div>
+	<section class="mdl-layout__tab-panel" id="fixed-tab-6">
+      <div class="page-content"><!-- Your content goes here --></div>
+	  
     </section>
   </main>
 </div>
