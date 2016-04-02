@@ -5,26 +5,52 @@
 <!doctype html>
 <html>
 <head>
-<title>BouyBoyz</title>
+<title>Buoy Main</title>
 
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-  PoS
-</button>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-  Stats
-</button>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-  Purchase Entry 
-</button>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-  Menu Entry
-</button>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-  Predictions
-</button>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-  Button
-</button>
+<!-- Uses a transparent header that draws on top of the layout's background -->
+<style>
+.demo-layout-transparent {
+  background: url('../assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+}
+</style>
+
+<div class="demo-layout-transparent mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header mdl-layout__header--transparent">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <span class="mdl-layout-title">Buoy</span>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">PoS</a>
+        <a class="mdl-navigation__link" href="">Stats</a>
+        <a class="mdl-navigation__link" href="">Purchase Entry</a>
+        <a class="mdl-navigation__link" href="">Menu Entry</a>
+		<a class="mdl-navigation__link" href="">Predictions</a>
+      </nav>
+    </div>
+  </header>
+  <div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Buoy</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">PoS</a>
+      <a class="mdl-navigation__link" href="">Stats</a>
+      <a class="mdl-navigation__link" href="">Purchase Entry</a>
+      <a class="mdl-navigation__link" href="">Menu Entry</a>
+	  <a class="mdl-navigation__link" href="">Predictions</a>
+    </nav>
+  </div>
+  <main class="mdl-layout__content">
+  </main>
+</div>
+
 
 </head>
 
