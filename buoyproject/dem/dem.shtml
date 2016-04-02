@@ -11,7 +11,7 @@
 <html>
 
 <head>
-<title>Buoy</title>
+<title>Dish Data Entry</title>
 <!-- Simple header with fixed tabs. -->
 <div id = "header" class="mdl-layout mdl-js-layout mdl-layout--fixed-header
             mdl-layout--fixed-tabs">

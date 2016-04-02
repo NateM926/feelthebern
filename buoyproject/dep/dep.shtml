@@ -11,7 +11,7 @@
 <html>
  
 <head>
-<title id= "buoy">Buoy</title>
+<title>Receipt Data Entry</title>
 
 <!-- Simple header with fixed tabs. -->
 <div id = "header" class="mdl-layout mdl-js-layout mdl-layout--fixed-header
@@ -19,7 +19,7 @@
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
       <!-- Title -->
-      <span class="mdl-layout-title">Buoy</span>
+      <span class="mdl-layout-title" id = "buoy">Buoy Restaurant Solutions</span>
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
