@@ -20,6 +20,10 @@
     <div class="mdl-layout__header-row">
       <!-- Title -->
       <span class="mdl-layout-title" id = "buoy">Buoy Restaurant Solutions</span>
+
+      <!-- icon -->
+      <img id = "pic" src="../buoyIcon.png" alt="Buoy Icon" width="35" height="35">
+
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
@@ -29,7 +33,6 @@
 	  <a href="../stats/stats.shtml" class="mdl-layout__tab">Stats</a>
 	  <a href="../main.shtml" class="mdl-layout__tab">Predictions</a>
 	  <a href="../main.shtml" class="mdl-layout__tab">Maine</a>
-	  <img src="../buoyIcon.png" alt="Buoy Icon" width="150" height="150">
     </div>
   </header>
   <div class="mdl-layout__drawer">
