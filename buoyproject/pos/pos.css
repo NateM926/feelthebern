@@ -1,0 +1,30 @@
+/*
+
+base color = #637F8D
+accent color = #536DFE
+
+*/
+
+body {
+  margin: auto;
+  padding-top: 50px;
+
+  background-color:#e4e5ed;
+}
+h1 {
+  margin: auto;
+  color:#ffffff;
+  background-color:#637F8D;
+  padding:20px;
+  width: 730px;
+  box-shadow: 5px 5px 20px #888888;
+}
+#white {
+	margin: auto;
+	padding:20px;
+	background-color:#ffffff;
+	width:730px;
+	box-shadow: 5px 5px 20px #888888;
+}
+
+}
