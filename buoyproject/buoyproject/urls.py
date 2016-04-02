@@ -20,6 +20,5 @@ from . import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^pos',views.PoSForm,name='PoSForm'),
-    url(r'^dataentry',views.DataEntryForm,name='DataEntryForm'),
 
 ]
