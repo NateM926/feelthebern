@@ -19,51 +19,60 @@
       </h1>
     </div>
 
+    <div id = "container">
+		<!-- Floating Label Item Name -->
+		<form action="#">
+		  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+		    <input class="mdl-textfield__input" type="text" id="itemNameText">
+		    <label class="mdl-textfield__label" for="itemNameText">Item name</label>
+		  </div>
+		</form>
 
-	<!-- Floating Label Item Name -->
-	<form action="#">
-	  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-	    <input class="mdl-textfield__input" type="text" id="itemNameText">
-	    <label class="mdl-textfield__label" for="itemNameText">Item name</label>
-	  </div>
-	</form>
+		<!-- Floating Label Item Name -->
+		<form action="#">
+		  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+		    <input class="mdl-textfield__input" type="text" id="itemNameText">
+		    <label class="mdl-textfield__label" for="itemNameText">Picture upload...</label>
+		  </div>
+		</form>
 
-	<!-- Floating Label Item Name -->
-	<form action="#">
-	  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-	    <input class="mdl-textfield__input" type="text" id="itemNameText">
-	    <label class="mdl-textfield__label" for="itemNameText">Picture upload...</label>
-	  </div>
-	</form>
+		<!-- Number of purchases with Floating Label -->
+		<form action="#">
+		  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+		    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cost">
+		    <label class="mdl-textfield__label" for="cost">Cost to consumer</label>
+		    <span class="mdl-textfield__error">Input is not a number!</span>
+		  </div>
+		</form>
 
-	<!-- Number of purchases with Floating Label -->
-	<form action="#">
-	  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-	    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cost">
-	    <label class="mdl-textfield__label" for="cost">Cost to consumer</label>
-	    <span class="mdl-textfield__error">Input is not a number!</span>
-	  </div>
-	</form>
+		Materials:
 
-	<!-- Number of purchases with Floating Label -->
-	<form action="#">
-	  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-	    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cost">
-	    <label class="mdl-textfield__label" for="cost">Amount of Lobsters (materials)</label>
-	    <span class="mdl-textfield__error">Input is not a number!</span>
-	  </div>
+		<!-- Number of purchases with Floating Label -->
+		<form action="#">
+		  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+		    <input class="mdl-textfield__input" type="text" id="itemNameText">
+		    <label class="mdl-textfield__label" for="itemNameText">Material name</label>
+		  </div>
 
-	  	<!-- Accent-colored raised button with ripple -->
-		<input type="submit" value="New Material" name="Submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-	</form>
+		  <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+		    <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="cost">
+		    <label class="mdl-textfield__label" for="cost">amount of material (lb)</label>
+		    <span class="mdl-textfield__error">Input is not a number!</span>
+		  </div>
 
-	<!-- Colored FAB button with ripple -->
-	<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
-	  <i class="material-icons">add</i>
-	</button>
+			<!-- Colored FAB button with ripple -->
+			<button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+			  <i class="material-icons">add</i>
+			</button>
+		</form>
 
 
 
+		<!-- Accent-colored raised button with ripple -->
+		<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+		  New Dish
+		</button>
+	</div>
 
   </body>
 </html>
