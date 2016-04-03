@@ -26,7 +26,7 @@
 
 	$result = mysql_query ($query, $link) //Execute the query
 
-	$while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
+	while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 	{ if ($row != $username) 
 		{ 
 			void exit ([$status ] );
