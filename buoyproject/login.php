@@ -25,7 +25,7 @@
 
 	if ($username = $manageruser and $password = $managerpwd)
 	{
-		header('Location: /loafyboyz/buoyproject/main.shtml');
+		header('Location: /loafyboyz/buoyproject/pos/pos.shtml');
 	}
 	elseif ($username = $employeeuser and $password = $employeepwd)
 	{
