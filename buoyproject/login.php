@@ -18,7 +18,7 @@
 
 	$username = $_POST['username'];
 	$password = $_POST['password'];
-	$link = mysql_connect($host $id $pw); //connect to database
+	$link = mysql_connect($host, $id, $pw); //connect to database
 	
 	mysql_select_db ($db); //select db
 	
