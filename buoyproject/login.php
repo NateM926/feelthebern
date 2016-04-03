@@ -23,11 +23,11 @@
 	$employeeuser = "user";
 	$employeepwd = "password";
 
-	if ($username = $manageruser $password = $managerpwd)
+	if ($username = $manageruser and $password = $managerpwd)
 	{
 		print=$success;
 	}
-	elseif ($username = $employeeuser $password = $employeepwd)
+	elseif ($username = $employeeuser and $password = $employeepwd)
 	{
 		print=$success;
 	}
