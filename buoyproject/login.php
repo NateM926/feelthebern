@@ -39,6 +39,6 @@
 				{ 
 					print $success
 				}
-	}
+	};
 
 ?>
