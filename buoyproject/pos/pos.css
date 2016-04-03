@@ -49,10 +49,13 @@ h1 {
 }
 
 #table{
+  margin-top:20px;
+  margin-left:20px;
 }
 #plus{
-  
+
 }
 #submit{
-
+  float:right;
+  margin-top:20px;
 }
