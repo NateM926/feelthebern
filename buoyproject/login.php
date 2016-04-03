@@ -22,11 +22,11 @@
 	
 	mysql_select_db ($db); //select db
 	
-	$query = "SELECT * FROM $table"; // define query
+//	$query = "SELECT * FROM $table"; // define query
 
-	$result = mysql_query ($query, $link); //Execute the query
+	$result = mysql_query (SELECT * FROM $table); //Execute the query
 
-	while ($row = mysql_fetch_array())
+	while ($row = mysql_fetch_array( ))
 		{print_r($row);}
 
 
