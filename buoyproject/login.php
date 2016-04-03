@@ -4,7 +4,7 @@
 	/* Print Posted Data */
 
 	$host="localhost";
-	$id="mysql";
+	$id="root";
 	$pw="mysql";
 	$db="bouy";
 	$table="users";
