@@ -26,7 +26,7 @@
 
 	$result = mysql_query ("SELECT * FROM $table"); //Execute the query
 
-	while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
+	while ($row = mysql_fetch_array($result, MYSQL_BOTH))
 		{print_r($row);}
 
 
