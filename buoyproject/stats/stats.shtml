@@ -11,7 +11,7 @@
 <!doctype html>
 <html>
 <head>
-<title>Statistics</title>
+ <title>Statistical Analysis</title>
 <!-- Simple header with fixed tabs. -->
 <div id = "header" class="mdl-layout mdl-js-layout mdl-layout--fixed-header
             mdl-layout--fixed-tabs">
@@ -61,7 +61,7 @@
   </main>
 </div>
 </head>
-    <title>Statistical Analysis</title>
+   
   </head>
   <body>
     <div>
