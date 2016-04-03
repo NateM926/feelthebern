@@ -10,6 +10,7 @@
 <!doctype html>
 <html>
 <head>
+<title>Point of Sale</title>
 <!-- Simple header with fixed tabs. -->
 <div id = "header" class="mdl-layout mdl-js-layout mdl-layout--fixed-header
             mdl-layout--fixed-tabs">
@@ -57,9 +58,8 @@
     </section>
   </main>
 </div>
-    <title>Point of Sale</title>
+
   </head>
-  <!--#include virtual="../ssi/header.ssi" -->
   <body>
     <div>
       <h1>
