@@ -5,12 +5,15 @@ accent color = #536DFE
 
 */
 
-body {
+p, html, body {
   background-color:#e4e5ed;
-
+  font-family: 'Roboto', sans-serif;
 }
+
   
 h1 {
+  font-family: 'Roboto', sans-serif;
+
   margin-left: auto;
   margin-right:auto;
 
@@ -28,16 +31,19 @@ h1 {
   margin-right:auto;
   
   margin-top:-25px;
-	padding:20px;
-	background-color:#ffffff;
-	width:730px;
-	box-shadow: 5px 5px 20px #888888;
+  padding:20px;
+  background-color:#ffffff;
+  width:730px;
+  box-shadow: 5px 5px 20px #888888;
 }
 #header{
+  font-family: 'Roboto', sans-serif;
   margin-top: -160px;
 }
 
 #buoy{
+  font-family: 'Roboto', sans-serif;
+  
   margin-left:8px;
   margin-top:0px;
   font-size:20px;
@@ -46,4 +52,18 @@ h1 {
 #pic {
   margin-top:-5px;
   margin-left:-65px;
+}
+
+#table{
+  margin-top:20px;
+  margin-left:20px;
+}
+#plus{
+
+}
+#submit{
+  font-family: 'Roboto', sans-serif;
+
+  float:right;
+  margin-top:20px;
 }
