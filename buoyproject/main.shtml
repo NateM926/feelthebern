@@ -16,11 +16,11 @@
     </div>
     <!-- Tabs -->
     <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-      <a href="./pos/pos.shtml"class="mdl-layout__tab">PoS</a></a>
-      <a href="./dep/dep.shtml"class="mdl-layout__tab">Perchase Entry</a></a>
+      <a href="./pos/pos.shtml"class="mdl-layout__tab">PoS</a>
+      <a href="./dep/dep.shtml"class="mdl-layout__tab">Perchase Entry</a>
       <a href="./dem/dem.shtml" class="mdl-layout__tab">Menu Entry</a>
 	  <a href="./stats/stats.shtml" class="mdl-layout__tab">Stats</a>
-	  <a href="./main.shtml" class="mdl-layout__tab">Predictions</a>
+	  <a href="#fixed-tab-5" class="mdl-layout__tab">Predictions</a>
     </div>
   </header>
   <img src="buoyIcon.png" alt="Buoy Icon" width="150" height="150">
