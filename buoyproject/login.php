@@ -24,7 +24,7 @@
 	
 	$query = "SELECT username FROM $table"; // define query
 
-	$result = mysql_query ($query, $link) //Execute the query
+	$result = mysql_query ($query, $link); //Execute the query
 
 	$while = while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
 	{ if ($row != $username) 
