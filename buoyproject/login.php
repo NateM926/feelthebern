@@ -4,7 +4,7 @@
 	/* Print Posted Data */
 
 	$host="localhost";
-	$id="root";
+	$id="mysql";
 	$pw="mysql";
 	$db="bouy";
 	$table="users";
@@ -26,8 +26,15 @@
 
 	$result = mysql_query ($query, $link); //Execute the query
 
-	$while = if ($row = mysql_fetch_array($result, MYSQL_ASSOC))
-	{ if ($row != $username) 
+	while ($row = mysql_fetch_array($result, MYSQL_ASSOC))
+		{print_r($row);}
+
+
+
+
+
+
+/*	{ if ($row != $username) 
 		{ 
 			void exit ([$status ] );
 		} 
@@ -40,5 +47,5 @@
 					print $success
 				}
 	};
-
+*/
 ?>
