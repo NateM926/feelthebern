@@ -24,10 +24,12 @@
 	
 //	$query = "SELECT * FROM $table"; // define query
 
-	$result = mysql_query ("SELECT * FROM $table"); //Execute the query
-
-	while ($row = mysql_fetch_array($result, MYSQL_BOTH))
-		{print_r($row);}
+	$query = mysql_query ("SELECT id FROM $table where username='".$username."' and password='".$password."'"); //Execute the query
+	$query = str_replace("\'","",$qz);
+	$result = mysqli_query($link,$query);
+	while ($row = mysql_fetch_array($result))
+		{ echo $row['id'];}
+	mysqi_close($link);
 
 
 
