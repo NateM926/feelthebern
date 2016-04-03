@@ -72,9 +72,9 @@
 
     <div id = "container">
     <img src="image.png" alt="memes"/>
-    Table 2
+    <img src="image2.png" alt="memes2"/>
 
-    Graph 3
+    <br>Most popular product: Lobster Roll
     </div>
 
 
