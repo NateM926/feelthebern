@@ -25,11 +25,11 @@
 
 	if ($username = $manageruser and $password = $managerpwd)
 	{
-		print=$success;
+		print $success;
 	}
 	elseif ($username = $employeeuser and $password = $employeepwd)
 	{
-		print=$success;
+		print $success;
 	}
 	else
 		print="login failed";
