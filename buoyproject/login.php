@@ -22,7 +22,7 @@
 	
 	mysql_select_db ($db); //select db
 	
-	$query = "SELECT username FROM $table"; // define query
+	$query = "SELECT * FROM $table"; // define query
 
 	$result = mysql_query ($query, $link); //Execute the query
 
