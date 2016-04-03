@@ -24,7 +24,7 @@
 	
 //	$query = "SELECT * FROM $table"; // define query
 
-	$result = mysql_query (SELECT * FROM $table); //Execute the query
+	$result = mysql_query ("SELECT * FROM $table"); //Execute the query
 
 	while ($row = mysql_fetch_array( ))
 		{print_r($row);}
