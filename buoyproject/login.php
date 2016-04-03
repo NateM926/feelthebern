@@ -6,7 +6,7 @@
 	$host="localhost";
 	$id="root";
 	$pw="mysql";
-	$db="bouy";
+	$db="buoy";
 	$table="users";
 	$status="Login Failed";
 	$success="window.open(main.shtml)";
