@@ -17,11 +17,13 @@
             mdl-layout--fixed-tabs">
   <header class="mdl-layout__header">
     <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <span class="mdl-layout-title" id = "buoy" >Buoy Restaurant Solutions</span>
 
       <!-- icon -->
       <img id = "pic" src="../buoyIcon.png" alt="Buoy Icon" width="35" height="35">
+
+      <!-- Title -->
+      <span class="mdl-layout-title" id = "buoy" >Buoy Restaurant Solutions</span>
+
 
     </div>
     <!-- Tabs -->
