@@ -32,7 +32,7 @@
 		print $success;
 	}
 	else
-		print="login failed";
+		print "login failed";
 //	$link = mysqli_connect($host, $id); //connect to database
 	
 	//mysql_select_db ($db); //select db
