@@ -11,9 +11,9 @@
 	$status="Login Failed";
 	$success="window.open(main.shtml)";
 
-	print '<Pre>';
-	print_r($_POST);
-	print '</pre>';
+//	print '<Pre>';
+//	print_r($_POST);
+//	print '</pre>';
 
 
 	$username = $_POST['username'];
@@ -25,7 +25,7 @@
 
 	if ($username = $manageruser and $password = $managerpwd)
 	{
-		print $success;
+		header('Location: /main.shtml');
 	}
 	elseif ($username = $employeeuser and $password = $employeepwd)
 	{
